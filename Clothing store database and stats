@@ -1,0 +1,24 @@
+Create a clothing store database
+
+CREATE TABLE store (id integer PRIMARY KEY, item text,color TEXT, size text, quantity INTEGER);
+
+INSERT INTO store VALUES (1,"socks","purple","s,m,l", 20);
+INSERT INTO store VALUES(2, "sweaters", "blue", "s,m,l",30);
+INSERT INTO store VALUES(3, "leggings", "black", "s, m, l", 20);
+INSERT INTO store VALUES(4, "t-shirt", "pink", "s,m,l",20);
+INSERT INTO store VALUES(5, "jeans", "white", "s,m,l",15);
+INSERT INTO store VALUES(6, "dress", "gold", "s,m,l", 35);
+INSERT INTO store VALUES(7, "jacket", "brown", "s,m,l", 35);
+INSERT INTO store VALUES(8, "cardigan", "grey", "s, m, l",50);
+INSERT INTO store VALUES(9, "overalls", "navy blue", "s,m,l", 40);
+INSERT INTO store VALUES(10, "shorts", "black", "s,m,l", 35);
+INSERT INTO store VALUES(11, "short sleeve shirt", "whitIe", "s,m,l", 35);
+INSERT INTO store VALUES(12, "tank top", "green", "s,m,l",50);
+INSERT INTO store VALUES(13, "jumpsuit", "pastel yellow", "s,m,l",35);
+INSERT INTO store VALUES(14, "long sleeve shirIt", "ligIht blue", "s,m,l",40);
+INSERT INTO store VALUES(15, "sweatpants", "grey", "s,m,l",50);
+
+Display database in order by quantity
+
+SELECT *FROM store
+ORDER by quantity desc;
